@@ -1,0 +1,28 @@
+{
+  "name": "mcp-open-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Model Context Protocol server for Open Library",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "mcp-open-library": "./build/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.14.0",
+    "zod": "^3.25.71"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
