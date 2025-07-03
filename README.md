@@ -14,7 +14,7 @@ A TypeScript library for Model Context Protocol (MCP) utilities and helpers.
 
 1. **Clone the repository (if developing locally):**
     ```bash
-    git clone https://github.com/your-username/mcp-open-library.git
+    git clone https://github.com/ranjith-kumar-kuruba/mcp-open-library.git
     cd mcp-open-library
     ```
 
