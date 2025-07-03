@@ -30,7 +30,7 @@ A TypeScript library for Model Context Protocol (MCP) utilities and helpers.
 
 4. **(Optional) Run tests:**
     ```bash
-    npm test
+    npm run inspector
     ```
 
 ### Installation (as a dependency)
